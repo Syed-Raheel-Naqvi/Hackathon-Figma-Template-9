@@ -1,15 +1,13 @@
 import Common from "@/components/Common";
-import Link from "next/link";
 import React from 'react'
 
 const page = () => {
   return (
-    <div>
-      <div className="min-h-screen bg-white">
+      <div>
         {/* Common Component */}
-      <Common title="404 Error" subtitle="404"/>
+      <Common title="Contact" subtitle=""/>
       
-      <section className="p-10 relative bg-white pt-36 flex flex-col items-center">
+      {/* <section className="p-10 relative bg-white pt-36 flex flex-col items-center">
         <div className="w-[630px] text-center">
           <h3 className="text-[96px] font-bold text-[#FF9F0D] mb-6">404</h3>
           <p className="font-bold text-[32px] mb-4">
@@ -22,14 +20,14 @@ const page = () => {
             Meanwhile, check out these fresh ideas:
           </p>
           {/* Button */}
-          <Link href="/">
+          {/* <Link href="/">
             <button className="bg-[#FF9F0D] text-white text-[18px] font-bold px-6 py-2 rounded hover:bg-[#e8890b]">
               Go Back to Home
             </button>
           </Link>
         </div>
       </section>
-    </div>
+    </div> */}
  </div>
   );
 }
